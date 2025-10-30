@@ -14,6 +14,8 @@ if 0 < num < 10:
 else:
     print("Ei saa sisestada arvu, mis on väiksem kui 1 ja suurem kui 9.")
 
+print("\n==============================")
+
 print("\nül 2 summa:")
 L = int(input("kirjuta arv L: "))  
 
@@ -25,6 +27,8 @@ while a <= L:
     a = a + 1  
 
 print("summa on", summa)  
+
+print("\n==============================")
 
 print("\nül 3 arva ära arv (0-100):")
 n = random.randint(0, 100)  
